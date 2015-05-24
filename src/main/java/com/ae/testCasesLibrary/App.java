@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       ExcelFileReader excel = new ExcelFileReader();
+       
+       excel.readFiles(args[0]);
     }
 }
